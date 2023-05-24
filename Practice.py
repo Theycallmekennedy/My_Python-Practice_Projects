@@ -161,11 +161,11 @@ y=list(x)
 y.remove('grape')
 x=tuple(y)
 print(x)
-'''
 
 x=("cucumber", "apple", "orange", "mango", "grape", "pineapple")
-#del (x)
+del (x)
 print(x)
+'''
 
 my_tuple= (1, 2, 3, 4, 5)
 updated_tuple= tuple(value * 2 for value in my_tuple)
